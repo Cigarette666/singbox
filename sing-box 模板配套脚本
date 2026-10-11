@@ -1,3 +1,13 @@
+// https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/sing-box/template.js#type=组合订阅&name=机场&outbound=🕳ℹ️all|all-auto🕳ℹ️hk|hk-auto🏷ℹ️港|hk|hongkong|kong kong|🇭🇰🕳台湾自动1🏷ℹ️台|台湾|tw|taiwan|🇹🇼🕳台湾自动2🏷ℹ️台|台湾|tw|taiwan|🇹🇼🕳台湾手动1🏷ℹ️台|台湾|tw|taiwan|🇹🇼🕳台湾手动2🏷ℹ️台|台湾|tw|taiwan|🇹🇼🕳日本自动🏷ℹ️日本|jp|japan|🇯🇵🕳ℹ️jp|jp-auto🏷ℹ️日本|jp|japan|🇯🇵🕳ℹ️sg|sg-auto🏷ℹ️^(?!.*(?:us)).*(新|sg|singapore|🇸🇬)🕳ℹ️us|us-auto🏷ℹ️美|us|unitedstates|united states|🇺🇸
+
+// 示例说明
+// 读取名称为「机场」的组合订阅中的节点
+// 将所有节点插入匹配 all|all-auto 的 outbound 中
+// 将匹配指定地区名称的节点插入对应 outbound 中
+// ℹ️ 表示忽略大小写
+// 🏷 后面是节点名称匹配规则
+// 🕳 后面是出站分组匹配规则
+// 可选参数：includeUnsupportedProxy=true
 
 log(`🚀 开始`)
 
