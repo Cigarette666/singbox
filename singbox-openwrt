@@ -67,7 +67,6 @@
       {"port": 853, "action": "reject", "no_drop": true},
       {"type": "logical", "mode": "and", "rules": [{"rule_set": "geosite-youtube"}, {"port": 443}, {"network": "udp"}], "action": "reject"},
       {"type": "logical", "mode": "and", "rules": [{"rule_set": "geosite-netflix"}, {"port": 443}, {"network": "udp"}], "action": "reject"},
-      {"type": "logical", "mode": "and", "rules": [{"rule_set": "geosite-hbo"}, {"port": 443}, {"network": "udp"}], "action": "reject"},
       {"network": "icmp", "action": "resolve"},
       {"network": "icmp", "outbound": "直连"},
       {"clash_mode": "Direct", "outbound": "直连"},
